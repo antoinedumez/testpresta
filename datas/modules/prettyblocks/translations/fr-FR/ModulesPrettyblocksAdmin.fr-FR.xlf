@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="admin-dev" source-language="fr-FR" target-language="fr-FR" datatype="plaintext">
+    <body>
+      <trans-unit id="71dc0789c3f89e946566aff04a31c9f2">
+        <source>Pretty Blocks</source>
+        <target>Pretty Blocks</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="3b2b2aa89e913995b344890c0201a691">
+        <source>Configure your design easily</source>
+        <target>Créez votre boutique à votre goût facilement</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="58920020539a1da022c32e3c98670679">
+        <source>Block moved with success</source>
+        <target>Block déplacé avec succès !</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="97201ca1a46606725b397ec2f2ba4d1e">
+        <source>An error has occured during this process</source>
+        <target>Une erreur est survenue.</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="e42243f3c16d5ac842f0abb6d5f623c6">
+        <source>Blocks deleted with success</source>
+        <target>Blocks supprimés avec succès !</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="b72db274ba0f4a2f321670bba6a8e185">
+        <source>Zone dupplicated with success</source>
+        <target>Zone dupliquée avec succès !</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="ec9df3317b95a8a3a0aba19101a1f710">
+        <source>Block removed with success</source>
+        <target>Block supprimé avec succès !</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="a4ab04e50a0d201e2342bae9c5bb21e0">
+        <source>Block duplicate successfully!</source>
+        <target>Block dupliqué avec succès !</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="eadee7bb6891a2fa80300125f41cb7fb">
+        <source>Updated with success</source>
+        <target>Mise à jour réussi</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="7fe9d2bd8596cb53a4abddb2a985bc58">
+        <source>Title updated with success</source>
+        <target>Titre mis à jour avec succès</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="960302df11e7521d1913d5085967a263">
+        <source>Image removed successfully</source>
+        <target>Image supprimée avec succès</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="678bbe137642c4d293c5066e418ae644">
+        <source>Image not found</source>
+        <target>Image non trouvée</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="82ac5e42338e593b0c305955a954fb84">
+        <source>The uploaded file exceeds the upload_max_filesize directive.</source>
+        <target>La taille du fichier à dépasser la directive upload_max_filesize </target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="efce3e8ba92c6aa91a0bc927bb8354f2">
+        <source>The uploaded file exceeds the post_max_size directive.</source>
+        <target>La taille du fichier à dépasser la directive post_max_size </target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="4f12b222c9659d62afa795987259933f">
+        <source>The uploaded file was only partially uploaded.</source>
+        <target>Le fichier a été uploadé partiellement</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="461e58b88ee8a29eabae188219964702">
+        <source>Please provide a file.</source>
+        <target>Merci de fournir un fichier</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="08d819923251c8eaa86d518ee209c5e1">
+        <source>Shop in modification</source>
+        <target>Boutique en cours de modification</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="c9cc8cce247e49bae79f15173ce97354">
+        <source>Save</source>
+        <target>Enregistrer</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="f05697e8558532fc1a7c1ca0556ea2eb">
+        <source>Add new element</source>
+        <target>Ajouter un nouvel élement</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="6f64f8f04ecfc5aba34cd2530d0bad8c">
+        <source>Availables blocks</source>
+        <target>Blocks disponibles</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="d3d2e617335f08df83599665eef8a418">
+        <source>Close</source>
+        <target>Fermer</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="e4ac2669bad629dfde25316a15fc2ae2">
+        <source>Current zone</source>
+        <target>Zone en cours</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="16bfbf9c462762cf1cba4134ec53c504">
+        <source>Loading</source>
+        <target>Loading</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="b535b8138beb937c800432367731a536">
+        <source>Default settings</source>
+        <target>Paramètres par défaut</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="8df41ed5ebc778c45f74a201e822613a">
+        <source>Choose a template</source>
+        <target>Veuillez choisir un template</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="7881d0858df7b6374c4860512ac028b4">
+        <source>Place the element in a column (container)</source>
+        <target>Placer le contenu dans une colonne centrée (container)</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="368d9ac76af05f714092bc808a426bfc">
+        <source>Background color</source>
+        <target>Couleur de fond</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="8c2df8fa44696764ce81d46010fbeab4">
+        <source>Add a color ex: #123456</source>
+        <target>Ajoutez une couleur ex: #121212</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="55b8deb25fdc0f8b628027f7d1d21cbe">
+        <source>Theme settings</source>
+        <target>Paramètres du thème</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="6ee6c7b6f69bd2af8e5fb2358243c0fe">
+        <source>Type your search here</source>
+        <target>Tapez votre recherche ici</target>
+        <note>Line: </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
