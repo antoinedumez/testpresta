@@ -149,7 +149,7 @@ class Ps_CustomerSignIn extends Module implements WidgetInterface
         $nextLevelXP = isset($xpLevels[$currentLevel]) ? $xpLevels[$currentLevel] - ($currentLevel > 0 ? $xpLevels[$currentLevel - 1] : 0) : $currentXP;
 
         $xpProgress = min(100, ($currentXP / $nextLevelXP) * 100);
-dump($currentXP, $nextLevelXP, $xpProgress);
+//dump($currentXP, $nextLevelXP, $xpProgress);
 
 // todo trouver le front de ça !
 
