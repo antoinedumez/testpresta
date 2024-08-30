@@ -13,12 +13,12 @@ services:
 
   prestashop:
     container_name: prestashop
-    image: prestashop/prestashop:latest # Latest stable version of the PrestaShop, to see all available images go to ...
+    image: prestashop/prestashop:latest
     restart: unless-stopped
     depends_on:
       - mysql
     ports:
-      - 8080:80
+      - 8088:80
     environment:
       DB_SERVER: some-mysql
       DB_NAME: prestashop
@@ -43,7 +43,7 @@ services:
       PMA_ARBITRARY: 1
     restart: unless-stopped
     ports:
-      - 8081:80
+      - 8089:80
     networks:
       - prestashop_network
 
