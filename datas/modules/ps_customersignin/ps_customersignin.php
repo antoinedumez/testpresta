@@ -70,46 +70,6 @@ class Ps_CustomerSignIn extends Module implements WidgetInterface
             && $this->registerHook('displayNav2');
     }
 
-//    public function getWidgetVariables($hookName, array $configuration)
-//    {
-//        $logged = $this->context->customer->isLogged();
-//
-//        if ($logged) {
-//            $customerName = $this->getTranslator()->trans(
-//                '%firstname% %lastname%',
-//                [
-//                    '%firstname%' => $this->context->customer->firstname,
-//                    '%lastname%' => $this->context->customer->lastname,
-//                ],
-//                'Modules.Customersignin.Admin'
-//            );
-//        } else {
-//            $customerName = '';
-//        }
-//
-//        $link = $this->context->link;
-//
-//        $totalAmount = $this->context->customer->getStats()['total_orders'];
-//
-//        // todo create an xp bar like a video game with $totalAmount
-//
-//        return [
-//            /*
-//            * @deprecated
-//            */
-//            'logged' => $logged,
-//            'customerName' => $customerName,
-//            /*
-//            * @deprecated
-//            */
-//            'logout_url' => $link->getPageLink('index', true, null, 'mylogout'),
-//            /*
-//            * @deprecated
-//            */
-//            'my_account_url' => $link->getPageLink('my-account', true),
-//        ];
-//    }
-
     public function getWidgetVariables($hookName, array $configuration)
     {
         $logged = $this->context->customer->isLogged();
@@ -129,42 +89,22 @@ class Ps_CustomerSignIn extends Module implements WidgetInterface
 
         $link = $this->context->link;
 
-        // Calcul du nombre total de commandes
-        $totalAmount = $this->context->customer->getStats()['total_orders'];
-
-        // Définir les niveaux d'XP
-        $xpLevels = [10, 30, 60, 100, 150]; // Seuils pour chaque niveau
-
-        // Calculer le niveau actuel
-        $currentLevel = 0;
-        foreach ($xpLevels as $level => $threshold) {
-            if ($totalAmount < $threshold) {
-                break;
-            }
-            $currentLevel = $level + 1;
-        }
-
-        // Calculer l'XP actuelle par rapport au niveau suivant
-        $currentXP = $totalAmount - ($currentLevel > 0 ? $xpLevels[$currentLevel - 1] : 0);
-        $nextLevelXP = isset($xpLevels[$currentLevel]) ? $xpLevels[$currentLevel] - ($currentLevel > 0 ? $xpLevels[$currentLevel - 1] : 0) : $currentXP;
-
-        $xpProgress = min(100, ($currentXP / $nextLevelXP) * 100);
-//dump($currentXP, $nextLevelXP, $xpProgress);
-
-// todo trouver le front de ça !
-
         return [
+            /*
+            * @deprecated
+            */
             'logged' => $logged,
             'customerName' => $customerName,
+            /*
+            * @deprecated
+            */
             'logout_url' => $link->getPageLink('index', true, null, 'mylogout'),
+            /*
+            * @deprecated
+            */
             'my_account_url' => $link->getPageLink('my-account', true),
-            'currentLevel' => $currentLevel,
-            'xpProgress' => $xpProgress,
-            'currentXP' => $currentXP,
-            'nextLevelXP' => $nextLevelXP,
         ];
     }
-
 
     public function renderWidget($hookName, array $configuration)
     {
